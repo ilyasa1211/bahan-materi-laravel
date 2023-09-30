@@ -43,5 +43,3 @@
 
 - **Hari 28-29:** Membangun proyek nyata dengan Laravel (misalnya, aplikasi toko online, blog, atau sistem manajemen tugas).
 - **Hari 30:** Sesi revisi, ulasan materi, dan kesimpulan.
-
-Pastikan untuk memberikan tugas dan proyek latihan kepada peserta pelatihan untuk mengaplikasikan pemahaman mereka selama pelatihan ini. Selain itu, berikan referensi ke sumber daya tambahan seperti dokumentasi resmi, tutorial online, atau buku untuk mendukung pembelajaran mereka.
