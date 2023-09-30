@@ -1,0 +1,33 @@
+
+
+> Todo
+- Bikin Group Sosial Media (WA, Discord) untuk berinteraksi bersama santri belajar
+- Bikin Trello atau Jira untuk task management
+- Bikin Task untuk hari Sabtu
+
+
+> Tools
+- Terminal
+- Teks editor (Notepad, Vim, VSCode, ...)
+- Git
+- (nanti) API tes (Postman, Swagger, Insomnia, ...)
+- (nanti) Browser (Firefox, Google Chrome, Microsoft Edge, Brave, Opera, Safari)
+- (optional) DB tools (dbeaver, mysqlWorkbench, navicat premium, phpMyAdmin, table plus, ...);
+
+
+> Materi Lainnya
+- API, REST API, Endpoint
+- URL
+- SQL
+- NoSQL
+
+
+> Materi Utama
+- PHP
+- Git
+- MySQL
+- Laravel
+
+
+
+
