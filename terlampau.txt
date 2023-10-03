@@ -1,2 +1,2 @@
-instalasi php
-pangkat
+operasi pangkat
+
