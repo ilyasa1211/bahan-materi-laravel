@@ -1,4 +1,6 @@
-# Buatlah deretan bilangan pangkat 2 menggunakan perulangan (loop)
+# Tugas 1: Bilangan Pangkat
+
+Buatlah deretan bilangan pangkat 2 dari bilangan 1-10 menggunakan perulangan (loop)
 
 > Hasil yang diharapkan
 >
