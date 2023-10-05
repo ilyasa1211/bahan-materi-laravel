@@ -5,7 +5,7 @@ Buatlah 3 fungsi sebagai berikut:
 2. fungsi kedua untuk menghitung luas
 3. fungsi ketiga untuk menampilkan hasilnya
 
-Contoh:
+Penerapan:
 
 ```php
 $panjang = 10;
@@ -22,4 +22,11 @@ Hasil yang diharapkan:
 Keliling: 36
 Luas: 80
 ```
+
+# Tugas 2: Pizza
+
+Buatlah 3 fungsi:
+1. Fungsi pertama untuk membuat roti (sebagai wadah/tempat)
+1. Fungsi kedua untuk menambah topping untuk roti tersebut
+1. Fungsi ketiga untuk mencetak topping yang telah ditambahkan
 
