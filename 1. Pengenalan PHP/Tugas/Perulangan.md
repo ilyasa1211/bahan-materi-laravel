@@ -22,4 +22,20 @@ for ($i=1; $i <= 10; $i++) {
 Buatlah sebuah perulangan untuk menampilkan deretan dari bilangan ganjil dari 1-40, dipisah menggunakan koma, tetapi untuk yang terakhir tidak.
 
 
+<details>
+    <summary>Jawaban</summary>
+    
+```php
+<?php
 
+// for ($i = $start; $i <= $end; $i += 2) {
+//     echo $i;
+
+//     if ($i !== 39) {
+//         echo ", ";
+//     }
+// }
+
+```
+
+</details>
