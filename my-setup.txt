@@ -1,8 +1,0 @@
-- OS: Ubuntu
-- PHP: 8.2.10
-- Terminal: Bash
-
-- Text Editor
-name: Visual Studio Code
-font: Fira Code
-theme: One Monokai Theme
