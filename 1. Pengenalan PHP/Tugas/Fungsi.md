@@ -23,6 +23,44 @@ Keliling: 36
 Luas: 80
 ```
 
+<details>
+    <summary>Jawaban</summary>
+
+```php
+<?php
+
+$panjang = 10;
+$lebar = 8;
+
+$keliling = keliling($panjang, $lebar);
+$luas = luas($panjang, $lebar);
+
+
+function keliling ($panjang, $lebar) {
+    $keliling = 2 * ($panjang + $lebar);
+    return $keliling;
+}
+
+function luas ($panjang, $lebar) {
+    $luas = $panjang * $lebar;
+    return $luas;
+}
+
+function tampilkan ($keliling, $luas) {
+    echo "Keliling: $keliling".PHP_EOL;
+    echo "Luas: $luas \n";
+}
+
+tampilkan($keliling, $luas);
+```
+</details>
+
+
+
+
+```
+
+
 # Tugas 2: Pizza
 
 Buatlah 3 fungsi:

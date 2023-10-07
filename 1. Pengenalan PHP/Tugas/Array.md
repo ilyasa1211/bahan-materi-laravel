@@ -53,10 +53,80 @@ echo PHP_EOL;
 
 Pelajari tentang cara mengurutkan nilai di dalam array di PHP.
 
-> Hint: 
->
-> sort(), ksort(), rsort(), dan sebagainya.
+```php
+sort($array); 
+// mengurutkan nilai dari terkecil didalam index array dan juga indexnya
+
+rsort(); 
+// mengurutkan nilai dari terbesar didalam index array dan juga indexnya
+
+ksort();
+// mengurutkan key dari assosiatif array dari terkecil
+
+krsort();
+// mengurutkan key dari assosiatif array dari terbesar
+
+asort();
+// mengurutkan nilai dari terkecil didalam index array, tetapi tetap mempertahankan nilai dari indexnya
+
+arsort();
+// mengurutkan nilai dari terbesar didalam index array, tetapi tetap mempertahankan nilai dari indexnya
+
+```
+
+
 
 ### Tugas 3: Buatlah simple CRUD dengan array
 
+CRUD adalah singkatan dari Create, Read, Update, Delete
+
 > Untuk DELETE bisa menggunakan unset() atau array_splice()
+
+```php
+<?php
+
+$array = [
+    [
+        "nama" => "ilyas",
+        "jurusan" => "backend"
+    ],
+    [
+        "nama" => "reza",
+        "jurusan" => "frontend",
+    ],
+];
+
+
+// print_r($array);
+
+// Create
+// Membuat atau menambah data
+
+$array[] = [
+    "nama" => "yusuf",
+    "jurusan" => "multimedia"
+];
+
+// Read
+// Menampilkan data
+foreach ($array as $arr) {
+    echo $arr["nama"].PHP_EOL;
+}
+
+// Update
+// Mengubah data
+$array[0]["nama"] = "zian";
+
+// Delete
+// Menghapus data
+unset($array[0]);
+
+
+```
+
+
+
+
+
+
+
