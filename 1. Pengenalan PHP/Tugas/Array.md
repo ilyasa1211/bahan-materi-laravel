@@ -11,7 +11,7 @@ kemudian tentukan jumlah, dan rata-rata nya dengan menggunakan salah satu perula
 > rata-rata = 83
 
 <details>
-    <summary>Jawaban</summary>
+    <summary><u>Lihat Jawaban</u></summary>
 
 ```php
 <?php

@@ -24,7 +24,7 @@ Luas: 80
 ```
 
 <details>
-    <summary>Jawaban</summary>
+    <summary><u>Lihat jawaban</u></summary>
 
 ```php
 <?php
@@ -54,11 +54,6 @@ function tampilkan ($keliling, $luas) {
 tampilkan($keliling, $luas);
 ```
 </details>
-
-
-
-
-```
 
 
 # Tugas 2: Pizza
