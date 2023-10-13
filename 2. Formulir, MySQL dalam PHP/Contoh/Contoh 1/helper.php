@@ -1,33 +1,26 @@
 <?php
 
+
+/**
+ *  Redirect to a direction
+ */
 function redirect(string $path): void {
     header("Location: $path");
     die();
 }
 
+/**
+ *  Debug and die
+ */
 function dd(mixed $item): void {
     var_dump($item);
     die();
 }
 
+/**
+ *  Set flash message to the session
+ */
 function infoMessage(string $message): void {
     session_start();
     $_SESSION["message"] = $message;
-}
-
-function queryStringToArray(): array {
-    $querySeparator = "&";
-    $queryKeyValueSeparator = "=";
-    $inputQuery = $_SERVER['QUERY_STRING'];
-    
-    $eachQuery = explode($querySeparator, $inputQuery);
-
-    $result = [];
-
-    foreach ($eachQuery as $query) {
-        [$key, $value] = explode($queryKeyValueSeparator, $query);
-        $result[$key] = $value;
-    }
-
-    return $result;
 }
